@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro&display=swap');
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  position: relative;
+}
+* {
+  font-family: 'Readex Pro', sans-serif;
+}
+
+canvas {
+  background: #fff2f2;
+}
+
+#score {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  background: rgba(248, 197, 197, 0.5);
+  display: table;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.studentline {
+  display: flex;
+  gap: 10px;
+  color: #1d1f33;
+  padding: 2px;
+}
+
+.studentline#user {
+  color: #ffa7d6;
+}
